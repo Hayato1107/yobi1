@@ -11,7 +11,7 @@
 |
 */
 //獲得用
-Route::get('app1', function () {
+Route::get('p1', function () {
     return view('yt.check'); //提出用
     // return view('yt.pp'); //パパ活LINE@
     
