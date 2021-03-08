@@ -13,6 +13,8 @@
 //獲得用
 Route::get('p1', function () {
     return view('yt.check'); //提出用
+    //リダイレクトLPへ切り替え - cccheckを変更
+    
     // return view('yt.chatl'); //チャットレディーLINE@誘導
     
     // return view('yt.pp'); //パパ活LINE@
