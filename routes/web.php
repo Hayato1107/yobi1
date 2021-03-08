@@ -13,16 +13,18 @@
 //獲得用
 Route::get('p1', function () {
     return view('yt.check'); //提出用
-    // return view('yt.pp'); //パパ活LINE@
+    // return view('yt.chatl'); //チャットレディーLINE@誘導
     
+    // return view('yt.pp'); //パパ活LINE@
     // return view('yt.job'); //チャットレディー
     // return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー - Aトレード
 });
 
 //確認用
 Route::get('cccheck', function () {
-    return view('yt.pp'); //パパ活LINE@
+    return view('yt.chatl'); //チャットレディーLINE@誘導
     
+    // return view('yt.pp'); //パパ活LINE
     // return view('yt.job'); //チャットレディー
     // return redirect('https://a-trade.jp/redirect/berry?media=G16531'); //ベリー - Aトレード
 });
