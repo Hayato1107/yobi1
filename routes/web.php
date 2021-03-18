@@ -11,7 +11,7 @@
 |
 */
 //獲得用
-Route::get('p1', function () {
+Route::get('o1', function () {
     return view('yt.check'); //提出用
     //リダイレクトLPへ切り替え - cccheckを変更
     
